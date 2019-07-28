@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006257</color>
+    <color name="colorPrimaryDark">#00504B</color>
+    <color name="colorAccent">#E6E6E6</color>
+    <color name="mainBackground">#D7D7D7</color>
+    <color name="lightYellow">#ffffb3</color>
+    <color name="colorProfile">#3B4041</color>
+    <color name="mediumYellow">#ffdf80</color>
+    <color name="radio_color">#e75748</color>
+</resources>

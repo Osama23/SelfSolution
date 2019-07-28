@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Self Solution</string>
+
+    <string name="username">username</string>
+    <string name="status">Hi,i am using whatsup!</string>
+    <string name="update">Update Profile</string>
+    <string name="create_task">Create Task</string>
+    <string name="find_people">Find People</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="write_msg">Write your message here.</string>
+    <string name="write_phone_number">Write Phone Number</string>
+    <string name="write_verfication_code">Write Verfication Code.</string>
+    <string name="send_verfication_code">Send Verfication Code</string>
+    <string name="verfiy">Verfiy</string>
+    <string name="profile_status">Status</string>
+    <string name="user_full_name">Fullname</string>
+    <string name="send_message">Send Message</string>
+    <string name="decline_message">Cancel Chat Request</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_content">Task Content</string>
+    <string name="task_deadline">Deadline</string>
+    <string name="task_time">Time</string>
+    <string name="task_expected">Expected Working Hours</string>
+    <string name="task_status">Status</string>
+    <string name="radio_leader">Leader</string>
+    <string name="radio_member">Member</string>
+    <string name="all_task">All Tasks</string>
+</resources>

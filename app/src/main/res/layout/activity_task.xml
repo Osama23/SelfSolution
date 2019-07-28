@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorProfile"
+    tools:context=".TaskActivity">
+
+    <include
+            android:id="@+id/add_task_toolbar"
+            layout="@layout/app_bar_layout"/>
+
+
+            <EditText
+                android:layout_below="@+id/add_task_toolbar"
+                android:id="@+id/my_task_name"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:background="@drawable/input_xml"
+                android:layout_marginTop="15dp"
+                android:hint="@string/task_name"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/my_task_content"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:background="@drawable/input_xml"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/my_task_name"
+                android:hint="@string/task_content"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/my_task_deadline"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:background="@drawable/input_xml"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/my_task_content"
+                android:hint="@string/task_deadline"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/my_task_time"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:background="@drawable/input_xml"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/my_task_deadline"
+                android:hint="@string/task_time"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/my_task_expected"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:background="@drawable/input_xml"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/my_task_time"
+                android:hint="@string/task_expected"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+
+             <Spinner
+                 android:background="@drawable/input_xml"
+                 android:layout_marginTop="20dp"
+                 android:layout_below="@+id/my_task_expected"
+                 android:id="@+id/spinner1"
+                 android:layout_width="match_parent"
+                 android:layout_height="50dp"
+                />
+
+
+        <Button
+            android:id="@+id/osama"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_xml"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "286840796386",
+    "firebase_url": "https://whatsfirebase-cb404.firebaseio.com",
+    "project_id": "whatsfirebase-cb404",
+    "storage_bucket": "whatsfirebase-cb404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286840796386:android:3f166a95a1a9e604",
+        "android_client_info": {
+          "package_name": "com.osama.osama.whatsfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286840796386-d8k9c39h9ecb2f6q9t1jreuo94kekpe2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiVV3oUsM2SglrTeapvvrK096ipSKAwSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286840796386-d8k9c39h9ecb2f6q9t1jreuo94kekpe2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_profile_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:civ_border_width="5dp"
+        app:civ_border_color="@color/colorPrimary"
+        android:src="@drawable/profile_image" />
+
+    <EditText
+        android:id="@+id/settings_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_profile_image"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/inputs"
+        android:hint="@string/username"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/edit_profile"
+        android:padding="6dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_job_title"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/settings_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioLeader"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/radio_leader"
+                android:checked="true"
+                android:buttonTint="@color/radio_color"/>
+
+            <RadioButton
+                android:id="@+id/radioMember"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/radio_member"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:buttonTint="@color/radio_color"/>
+
+        </RadioGroup>
+
+
+    <Button
+        android:id="@+id/settings_update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_job_title"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/buttons"
+        android:inputType="textMultiLine"
+        android:padding="6dp"
+        android:text="@string/update"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+
+
+</RelativeLayout>
